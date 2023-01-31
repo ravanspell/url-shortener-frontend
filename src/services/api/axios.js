@@ -1,9 +1,10 @@
 import axios from "axios";
 import axiosRetry from 'axios-retry';
 import { toast } from "react-hot-toast";
+import { BACKEND_BASE_URL } from "../../constants/http";
 
 const axiosClient = axios.create({
-    baseURL: 'http://localhost:8001/api/',
+    baseURL: BACKEND_BASE_URL,
     timeout: 4000,
     headers: {
         'Content-Type': 'application/json'
