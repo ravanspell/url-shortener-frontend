@@ -1,0 +1,22 @@
+.modal-box {
+    background-color: #212837;
+}
+
+.view-short-url-modal {
+    padding: 6px 12px;
+}
+
+.view-short-url-modal .close-button {
+    /* display: flex;
+    justify-content: flex-end; */
+    padding: 5px 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.view-short-url-modal svg {
+    width: 14px;
+    height: 14px;
+}
+
+.view-short-url-modal .modal-content {}

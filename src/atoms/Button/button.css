@@ -1,0 +1,20 @@
+.primary-button{
+    
+    background-color: #ff621f;
+    border: #ff621f;
+}
+
+.primary-button-disabled {
+    position: relative;
+    background-color: #d8d7d7;
+    border: #d8d7d7;
+    color: #d8d7d7!important;
+}
+
+.loading-spinner{
+    position: absolute;
+    top: 34%;
+    bottom: auto;
+    left: 40%;
+    right: auto;
+}
